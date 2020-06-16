@@ -1,0 +1,37 @@
+
+.hero {
+    background-color: #333333;
+    color: #ffffff;
+    min-height: 100vh;
+    line-height: 3.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+}
+
+.hero h2 {
+    font-size: 0.9rem;
+}
+
+.hero .hero-body {
+    text-align: center;
+}
+
+.hero .artifacts{
+    width: 2em;
+    height: 2em;
+    fill: #ffffff;
+}
+
+.hero .artifact-links {
+    margin: 0.5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}

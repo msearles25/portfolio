@@ -1,0 +1,24 @@
+.aboutSection {
+    margin: 2.5rem 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.aboutTop {
+    margin:0 auto;
+    max-width: 90%;
+}
+
+.aboutSection h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.aboutSection p {
+    line-height: 1.3rem;
+    font-size: 0.5rem;
+}
+
+.aboutBottom {
+    margin-top: 2.5rem;
+}
