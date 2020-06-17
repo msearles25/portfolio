@@ -3,11 +3,10 @@
     margin: 0 auto;
     font-family: 'Press Start 2P', cursive;
     color: #ffffff;
-    box-shadow: 4px 4px 15px -4px #1f1f1f9a;
-    /* margin-top: 2rem; */
+    box-shadow: 5px 5px 30px -4px #1f1f1f9a;
     border-radius: 0.4rem;
     margin: 1rem .7rem;
-    width: 85%;
+    /* width: 30%; */
 }
 
 @media only screen and (max-width: 500px) {
@@ -22,9 +21,9 @@
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
     .card {
-        width: 300px;
+        width: 385px;
     }
 }
 
@@ -63,4 +62,55 @@
 
 .card .content .projectLinks p {
     margin-top: 0.2rem;
+}
+
+
+.card .content .imageContainer {
+    max-width: 90%;
+    margin: 1.7rem auto;
+}
+
+.eightBitBtn{
+    width: 10rem;
+    float: left;
+    border-left: 4px solid #000000;
+    border-right: 4px solid #000000;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+.eightBitBtn .btnWrapper {
+    display: block;
+    padding: 15px;
+    margin: -5px 0;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: .6rem;
+}
+
+.eightBitBtn .btnWrapper::after {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    left: -1px;
+    bottom: -1px;
+    content: '';
+    box-shadow: inset -5px -5px #9c9c9c;
+}
+
+.eightBitBtn .btnWrapper:hover {
+    background-color: #ffffffea;
+    cursor: pointer;
+}
+
+.eightBitBtn .btnWrapper:hover::after {
+    box-shadow: inset -6px -6px #9c9c9c;
+}
+
+.eightBitBtn .btnWrapper:active::after {
+    box-shadow: inset 5px 5px #9c9c9c;
 }

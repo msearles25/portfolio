@@ -3,6 +3,9 @@ import React from 'react';
 import '../css/projects.css'
 
 import ProjectCard from './ProjectCard';
+import Card from './card';
+
+import curio from '../images/curio.png'
 
 const Projects = () => {
     return (
@@ -13,6 +16,7 @@ const Projects = () => {
                 <ProjectCard />
                 <ProjectCard />
            </div>
+
         </section>
     )
 }
