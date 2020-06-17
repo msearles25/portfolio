@@ -16,9 +16,9 @@ const Navigation = () => {
 
             <div className={`navMenu ${burger ? 'open' : ''}`}>
                 <div className='navEnd'>
-                    <a href='#' className='navLinks'>Home</a>
-                    <a href='#about' className='navLinks'>About</a>
-                    <a href='#' className='navLinks'>Projects</a>
+                    <a href='#' className='navLinks' onClick={() => setBurger(!burger)} >Home</a>
+                    <a href='#about' className='navLinks' onClick={() => setBurger(!burger)}>About</a>
+                    <a href='#projects' className='navLinks' onClick={() => setBurger(!burger)}>Projects</a>
                     <a href='#' className='navLinks resumeLink'>Resume</a>
                 </div>
             </div>

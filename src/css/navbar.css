@@ -11,7 +11,7 @@
 
 .hamburger {
     position: absolute;
-    padding: 0.5rem 0.8rem;
+    padding: 1vh 2vw;
     cursor: pointer;
 }
 
@@ -28,7 +28,7 @@
     margin-top: 2.8rem;
     z-index: 30;
     background-color: #333333;
-    box-shadow: 0px 8px 4px -6px #2b2b2b;
+    box-shadow: 0 8px 15px -6px #2b2b2b;
 }
 
 .navBar .navEnd .navLinks {
@@ -43,4 +43,21 @@
 
 .open {
     display: block;
+}
+
+@media only screen and (min-width: 1024px) {
+    .navEnd{
+        box-shadow: none;
+        flex-direction: row;
+        margin: auto 1.5vw;
+        justify-content: flex-end;
+    }
+    
+    .navMenu{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
 }

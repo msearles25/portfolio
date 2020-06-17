@@ -1,0 +1,66 @@
+.card {
+    background-color: #333333;
+    margin: 0 auto;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    box-shadow: 4px 4px 15px -4px #1f1f1f9a;
+    /* margin-top: 2rem; */
+    border-radius: 0.4rem;
+    margin: 1rem .7rem;
+    width: 85%;
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .card {
+        margin: 1rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .card {
+        width: 300px;
+    }
+}
+
+.card .content {
+    max-width: 100%;
+    text-align: center;
+}
+
+.card .content h3 {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.card .content p {
+    display: flex;
+    max-width: 75%;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    margin: 0 auto 1rem;
+}
+
+.card .content p span {
+    font-size: 0.65rem;
+}
+
+.card .content img {
+    width: 100%;
+    max-height: 20%;
+}
+
+.card .content .projectLinks {
+    display: flex;
+    font-size: .6rem;
+    justify-content: space-evenly;
+}
+
+.card .content .projectLinks p {
+    margin-top: 0.2rem;
+}
