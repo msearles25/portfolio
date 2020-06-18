@@ -37,6 +37,11 @@
     margin: 1rem;
 }
 
+.navBar .navEnd .navLinks:hover {
+    color: #5CC4FF;
+    transition: 0.2s ease-in;
+}
+
 .navMenu {
     display: none;
 }

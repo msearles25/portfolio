@@ -4,6 +4,10 @@ import '../css/header.css'
 
 // All svg's are from icons8
 
+// github, linkedin and envelope are from:
+// https://github.com/nostalgic-css/NES.icons
+
+
 const Header = () => {
     return (
         <section className='hero'>
