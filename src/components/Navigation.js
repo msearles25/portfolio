@@ -16,10 +16,10 @@ const Navigation = () => {
 
             <div className={`navMenu ${burger ? 'open' : ''}`}>
                 <div className='navEnd'>
-                    <a href='#' className='navLinks' onClick={() => setBurger(!burger)} >Home</a>
-                    <a href='#about' className='navLinks' onClick={() => setBurger(!burger)}>About</a>
-                    <a href='#projects' className='navLinks' onClick={() => setBurger(!burger)}>Projects</a>
-                    <a href='#' className='navLinks resumeLink'>Resume</a>
+                    <a href='#' className={`navLinks ${burger ? 'openLinks' : ''}`} onClick={() => setBurger(false)} >Home</a>
+                    <a href='#about' className={`navLinks ${burger ? 'openLinks' : ''}`}  onClick={() => setBurger(false)}>About</a>
+                    <a href='#projects' className={`navLinks ${burger ? 'openLinks' : ''}`}  onClick={() => setBurger(false)}>Projects</a>
+                    <a href='#' className={`navLinks ${burger ? 'openLinks' : ''}`} >Resume</a>
                 </div>
             </div>
             

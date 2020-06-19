@@ -35,3 +35,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+.hero .artifact-links a {
+    color: #ffffff;
+}
+
+.github-icon {
+    position: relative;
+
+}
