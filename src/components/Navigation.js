@@ -19,7 +19,7 @@ const Navigation = () => {
                     <a href='#' className={`navLinks ${burger ? 'openLinks' : ''}`} onClick={() => setBurger(false)} >Home</a>
                     <a href='#about' className={`navLinks ${burger ? 'openLinks' : ''}`}  onClick={() => setBurger(false)}>About</a>
                     <a href='#projects' className={`navLinks ${burger ? 'openLinks' : ''}`}  onClick={() => setBurger(false)}>Projects</a>
-                    <a href='#' className={`navLinks ${burger ? 'openLinks' : ''}`} >Resume</a>
+                    <a href='https://drive.google.com/file/d/1ogUPlBtODEXv3QkvPtCvC0z-DeWT4JyJ/view?usp=sharing' className={`navLinks ${burger ? 'openLinks' : ''}`} >Resume</a>
                 </div>
             </div>
             

@@ -36,6 +36,11 @@
 .card .content {
     max-width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 .card .content h3 {
@@ -43,8 +48,9 @@
     font-size: 0.9rem;
 }
 
-.card .content p {
+.card .content > p {
     display: flex;
+    flex-wrap: wrap;
     max-width: 75%;
     justify-content: space-evenly;
     margin: 1rem 0;
@@ -63,7 +69,9 @@
 .card .content .projectLinks {
     display: flex;
     font-size: .6rem;
+    width: 100%;
     justify-content: space-evenly;
+    /* border: 5px solid green; */
 }
 
 .card .content .projectLinks p {
@@ -71,8 +79,23 @@
 }
 
 
+.card .content .projectLinks a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.card .content .projectLinks p {
+    color: #333333;
+}
+
+.card .content .imageContainer img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .card .content .imageContainer {
     max-width: 90%;
+    height: 15rem;
     margin: 1.7rem auto;
 }
 
@@ -98,6 +121,10 @@
     font-size: .6rem;
 }
 
+.eightBitBtn .btnWrapper span` {
+    color: #333333;
+}
+
 .eightBitBtn .btnWrapper::after {
     position: absolute;
     top: -1px;
@@ -119,4 +146,18 @@
 
 .eightBitBtn .btnWrapper:active::after {
     box-shadow: inset 5px 5px #9c9c9c;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 15px 0;
+    /* border: 1px solid green; */
+}
+
+.techStack p {
+    /* margin-right: 300px; */
+    font-size: .7rem;
 }

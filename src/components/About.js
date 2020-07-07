@@ -15,8 +15,8 @@ import docker from '../svgs/icons8-docker.svg'
 
 const About = () => {
     return (
-        <section class='aboutSection' id='about'>
-            <div class='aboutTop'>
+        <section className='aboutSection' id='about'>
+            <div className='aboutTop'>
                 <h3>About</h3>
                 <p>
                     My name is Michael Searles, I am a full stack developer that is experienced in JavaScript and Python, while my main

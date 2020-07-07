@@ -2,35 +2,37 @@ import React from 'react';
 
 import '../css/projectCard.css'
 
-import curio from '../images/curio.png'
-
-
-import placeholder from '../images/140x100.png';
-
-const ProjectCard = () => {
+const ProjectCard = props => {
     return (
         <div className='card'>
             <div className='content'>
                 <div className='imageContainer'>
-                    <img src={curio}/>
+                    <img src={props.image}/>
                 </div>
                 
-                <h3>Random Name</h3>
-                <p>
-                    <span className='techStack'>React</span>
+                <h3>{props.name}</h3>
+                <div className='techStack'>
+                    {props.stack.map((stack, i) => (
+                        <p key={i}>{stack}</p>
+                    ))}
+                    {/* <span className='techStack'>React</span>
                     <span className='techStack'>Node</span>
-                    <span className='techStack'>Express</span>
-                </p>
+                    <span className='techStack'>Express</span> */}
+                </div>
                 <div className='projectLinks'>
                     <div className='eightBitBtn'>
-                        <div className='btnWrapper'>
-                            <a className='eightBit'>Live Demo</a>
-                        </div>
+                        <a target='_blank' rel="noopener noreferrer" href={props.demo}>
+                            <div className='btnWrapper'>
+                                <span className='eightBit'>Live Demo</span>
+                            </div>
+                        </a>
                     </div>
                     <div className='eightBitBtn'>
-                        <div className='btnWrapper'>
-                            <a className='eightBit'>Source Code</a>
-                        </div>
+                        <a target='_blank' rel="noopener noreferrer" href={props.source}>
+                            <div className='btnWrapper'>
+                                <span className='eightBit'>Source Code</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
