@@ -62,13 +62,11 @@
 @media only screen and (max-width: 1023px) {
     .navMenu {
         transform: scaleY(0);
-        /* transition: transform .2s; */
     }
     .open {
         transform: scaleY(1);
     }
     .openLinks {
-        /* opacity: 0; */
         animation: links 1s ease-in;
     }
 }
