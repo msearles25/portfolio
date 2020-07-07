@@ -24,17 +24,17 @@ const Header = () => {
             <div className='artifact-links'>
                 <div className='github-link'>
                     <a href='https://www.github.com/msearles25'>
-                        <i class="nes-icon github-square size-2x"></i>
+                        <i className="nes-icon github-square size-2x"></i>
                     </a>
                 </div>
                 <div className='linkedin-link'>
                     <a href='https://www.linkedin.com/in/michael--searles/'>
-                        <i class="nes-icon linkedin size-2x"></i>
+                        <i className="nes-icon linkedin size-2x"></i>
                     </a>
                 </div>
                 <div className='email-link'>
                     <a href="mailto:michael.searles25@gmail.com">
-                        <i class="nes-icon envelope size-2x"></i>
+                        <i className="nes-icon envelope size-2x"></i>
                     </a>
                 </div>
             </div>

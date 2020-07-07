@@ -6,15 +6,37 @@ import ProjectCard from './ProjectCard';
 import Card from './card';
 
 import curio from '../images/curio.png'
+import hackathon from '../images/hackathonPortal.png'
+import ff from '../images/friendfinder.png'
 
 const Projects = () => {
     return (
         <section id='projects' className='projectsSection'>
             <h3>Projects</h3>
             <div className='projectContainer'>
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                <ProjectCard 
+                    name='Hackathon Portal' 
+                    image={hackathon} 
+                    stack={['React', 'Node.js', 'Material-UI', 'Sass']}
+                    demo='https://www.hackathon-portal.tech/'
+                    source='https://github.com/msearles25/hackathon-portal-fe'
+                />
+                <ProjectCard 
+                    name='Curio' 
+                    image={curio} 
+                    stack={['React', 'CSS', 'Sass']}
+                    demo='https://curio-app.netlify.app/'
+                    source='https://github.com/curio-app/frontend'
+                />
+                <ProjectCard 
+                    name='Friend Finder' 
+                    image={ff} 
+                    stack={['HTML', 'CSS']}
+                    demo='https://friendfinder-mike.netlify.app/'
+                    source='https://github.com/Find-Friends/marketing-site'
+                />
+                {/* <ProjectCard />
+                <ProjectCard /> */}
            </div>
 
         </section>
