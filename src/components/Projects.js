@@ -9,13 +9,21 @@ import curio from '../images/curio.png'
 import hackathon from '../images/hackathonPortal.png'
 import ff from '../images/friendfinder.png'
 import facebrowser from '../images/facebrowser.png'
+import simpleGeoWars from '../images/simpleGeoWars.png'
 
 const Projects = () => {
     return (
         <section id='projects' className='projectsSection'>
             <h3>Projects</h3>
             <div className='projectContainer'>
-            <ProjectCard 
+                <ProjectCard 
+                    name='Simple Geometry Wars' 
+                    image={simpleGeoWars} 
+                    stack={['C++', 'SFML Graphics Library']}
+                    demo='https://github.com/msearles25/demo-game/releases/tag/1.0.0'
+                    source='https://github.com/msearles25/demo-game'
+                />
+                <ProjectCard 
                     name='FaceBrowser Front-End' 
                     image={facebrowser} 
                     stack={['React', 'Styled-Components', 'Redux']}
