@@ -11,6 +11,7 @@ import python from '../svgs/icons8-python.svg'
 import postgresql from '../svgs/icons8-postgresql.svg'
 import git from '../svgs/icons8-git (1).svg'
 import docker from '../svgs/icons8-docker.svg'
+import c from '../svgs/icons8-c++.svg'
 
 
 const About = () => {
@@ -28,6 +29,10 @@ const About = () => {
             <div className='aboutBottom'>
                 <h3>Skills</h3>
                 <div className='skillsGroup'>
+                    <div className='skills'>
+                        <object type="image/svg+xml" data={c} width='60'></object>
+                        <p>C++</p>
+                    </div>
                     <div className='skills'>
                         <object type="image/svg+xml" data={javascript} width='60'></object>
                         <p>Javascript</p>
