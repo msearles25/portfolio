@@ -20,8 +20,8 @@ const Projects = () => {
                     name='Simple Geometry Wars' 
                     image={simpleGeoWars} 
                     stack={['C++', 'SFML Graphics Library']}
-                    demo='https://github.com/msearles25/demo-game/releases/tag/1.0.0'
-                    source='https://github.com/msearles25/demo-game'
+                    demo='https://www.dropbox.com/s/bx9jevtjptwd7yw/Release.rar?dl=0'
+                    source='https://gitfront.io/r/msearles25/cd3335ff2781e36f13b9ea152fbf4ccba077549f/demo-game/'
                 />
                 <ProjectCard 
                     name='FaceBrowser Front-End' 
